@@ -13,6 +13,18 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'colabdb',
+        'USER': 'root',
+        'PASSWORD': get_secret('DATABASE_PASSWORD'),
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
