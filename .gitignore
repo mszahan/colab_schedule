@@ -1,4 +1,5 @@
-/__pycache__/
+/__pycache__
+/config/__pycache__
 /config/settings/__pycache__
 /config/__pycache__
 /schedule/__pycache__
