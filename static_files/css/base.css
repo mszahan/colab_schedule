@@ -1,0 +1,43 @@
+:root {
+    --action-color-display-frame-background: #EAF0F2;
+    --oxy: 'Oxygen', sans-serif;
+    --base-color:#1f4e5f;
+    --pop:'Poppins', sans-serif;
+}
+
+body {
+    background: var(--action-color-display-frame-background);
+    box-sizing: border-box;
+
+}
+
+.nav-bar {
+    font-family: var(--oxy);
+    
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 20px;
+    /* align-content: flex-start; */
+    justify-content: end;
+
+    
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #1f4e5f;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+.nav-bar ul li .login {
+    background-color: white;
+    border-radius: 10px;
+
+}

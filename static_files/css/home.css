@@ -1,0 +1,64 @@
+@import url(base.css);
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+    margin: 60px 1rem 0 1rem;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.shadow{
+    width: 100%;
+    height: 321px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+h2#typewriter {
+    font-family: var(--oxy);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+    min-height: 130px;
+}
+
+#colab {
+    font-family: var(--pop);
+    color: var(--base-color);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+@media (min-width:750px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 15px 1rem 0 1rem;
+    }
+    
+
+    #colab {
+        order: 1;
+    }
+
+    .shadow {
+        order: 2;
+    }
+
+    #typewriter {
+        order: 3;
+    }
+
+
+}
+
+
+

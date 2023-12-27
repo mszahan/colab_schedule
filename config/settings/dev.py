@@ -12,6 +12,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# INSTALLED_APPS += [
+#     'livereload',
+# ]
+
+# MIDDLEWARE += [
+#     'livereload.middleware.LiveReloadScript',
+# ]
+
 
 DATABASES = {
     'default': {
